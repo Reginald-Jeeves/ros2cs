@@ -1,0 +1,30 @@
+[1.179s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/build
+[1.515s] running develop
+[1.724s] Removing /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/python3.10/site-packages/joystick.egg-link (link to .)
+[1.768s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick' returned '0': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/build
+[1.769s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/joystick': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/joystick build --build-base /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/build install --record /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/install.log --single-version-externally-managed
+[1.950s] running egg_info
+[1.950s] writing ../../../build/joystick/joystick.egg-info/PKG-INFO
+[1.950s] writing dependency_links to ../../../build/joystick/joystick.egg-info/dependency_links.txt
+[1.950s] writing entry points to ../../../build/joystick/joystick.egg-info/entry_points.txt
+[1.950s] writing requirements to ../../../build/joystick/joystick.egg-info/requires.txt
+[1.950s] writing top-level names to ../../../build/joystick/joystick.egg-info/top_level.txt
+[1.951s] reading manifest file '../../../build/joystick/joystick.egg-info/SOURCES.txt'
+[1.951s] writing manifest file '../../../build/joystick/joystick.egg-info/SOURCES.txt'
+[1.951s] running build
+[1.952s] running build_py
+[1.952s] copying joystick/joystick_node.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/build/lib/joystick
+[1.952s] running install
+[1.952s] running install_lib
+[1.952s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/python3.10/site-packages/joystick
+[1.952s] copying /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/build/lib/joystick/joystick_node.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/python3.10/site-packages/joystick
+[1.952s] copying /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/build/lib/joystick/__init__.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/python3.10/site-packages/joystick
+[1.953s] byte-compiling /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/python3.10/site-packages/joystick/joystick_node.py to joystick_node.cpython-310.pyc
+[1.953s] byte-compiling /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/python3.10/site-packages/joystick/__init__.py to __init__.cpython-310.pyc
+[1.953s] running install_data
+[1.953s] running install_egg_info
+[1.954s] Copying ../../../build/joystick/joystick.egg-info to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/python3.10/site-packages/joystick-0.0.0-py3.10.egg-info
+[1.954s] running install_scripts
+[1.971s] Installing joystick_control script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/joystick
+[1.972s] writing list of installed files to '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/install.log'
+[2.021s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/joystick' returned '0': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/joystick build --build-base /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/build install --record /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/install.log --single-version-externally-managed

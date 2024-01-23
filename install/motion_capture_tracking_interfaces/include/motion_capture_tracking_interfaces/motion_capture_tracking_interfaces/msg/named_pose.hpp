@@ -1,0 +1,1 @@
+/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/motion_capture_tracking_interfaces/rosidl_generator_cpp/motion_capture_tracking_interfaces/msg/named_pose.hpp

@@ -1,0 +1,36 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf/lib/python3.10/site-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/python3.10/site-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_interfaces/local/lib/python3.10/dist-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/python3.10/site-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture/lib/python3.10/site-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_sim/local/lib/python3.10/dist-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py/lib/python3.10/site-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/local/lib/python3.10/dist-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/crazyflie-firmware/build",
+        "/adm.sof44944@gaia.fkie.fraunhofer.de/crazyflie-firmware/build",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf/lib/python3.10/site-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/python3.10/site-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_interfaces/local/lib/python3.10/dist-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/python3.10/site-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture/lib/python3.10/site-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_sim/local/lib/python3.10/dist-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py/lib/python3.10/site-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/local/lib/python3.10/dist-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages",
+        "/home/adm.sof44944@gaia.fkie.fraunhofer.de/crazyflie-firmware/build",
+        "/adm.sof44944@gaia.fkie.fraunhofer.de/crazyflie-firmware/build",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

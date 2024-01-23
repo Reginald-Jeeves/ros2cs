@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing hsi.egg-info/PKG-INFO
+writing dependency_links to hsi.egg-info/dependency_links.txt
+writing entry points to hsi.egg-info/entry_points.txt
+writing requirements to hsi.egg-info/requires.txt
+writing top-level names to hsi.egg-info/top_level.txt
+reading manifest file 'hsi.egg-info/SOURCES.txt'
+writing manifest file 'hsi.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/python3.10/site-packages/hsi.egg-link (link to .)
+Installing cf_node script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/hsi
+Installing cf_trial = hsi.cf_trial_node:maincf_trial2 script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/hsi
+
+Installed /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi
+running install_data

@@ -1,0 +1,9 @@
+source;share/joystick/hook/pythonpath.ps1
+source;share/joystick/hook/pythonpath.dsv
+source;share/joystick/hook/pythonpath.sh
+source;share/joystick/hook/ament_prefix_path.ps1
+source;share/joystick/hook/ament_prefix_path.dsv
+source;share/joystick/hook/ament_prefix_path.sh
+source;../../build/joystick/share/joystick/hook/pythonpath_develop.ps1
+source;../../build/joystick/share/joystick/hook/pythonpath_develop.dsv
+source;../../build/joystick/share/joystick/hook/pythonpath_develop.sh

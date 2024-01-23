@@ -1,0 +1,20 @@
+[1.520s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness/build --no-deps install_data
+[1.867s] running develop
+[2.081s] running egg_info
+[2.082s] writing bioharness.egg-info/PKG-INFO
+[2.082s] writing dependency_links to bioharness.egg-info/dependency_links.txt
+[2.082s] writing entry points to bioharness.egg-info/entry_points.txt
+[2.082s] writing requirements to bioharness.egg-info/requires.txt
+[2.082s] writing top-level names to bioharness.egg-info/top_level.txt
+[2.084s] reading manifest file 'bioharness.egg-info/SOURCES.txt'
+[2.085s] writing manifest file 'bioharness.egg-info/SOURCES.txt'
+[2.086s] running build_ext
+[2.086s] Creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages/bioharness.egg-link (link to .)
+[2.087s] Installing hr_node script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/bioharness
+[2.087s] Installing hr_pub script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/bioharness
+[2.087s] Installing posture_pub script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/bioharness
+[2.087s] Installing test_node script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/bioharness
+[2.088s] 
+[2.088s] Installed /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness
+[2.088s] running install_data
+[2.193s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness' returned '0': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness/build --no-deps install_data

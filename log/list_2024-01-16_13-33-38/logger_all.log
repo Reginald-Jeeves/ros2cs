@@ -1,0 +1,572 @@
+[0.717s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs']
+[0.717s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2168349db0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f216876f400>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f216876f400>>)
+[0.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.774s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs) by extensions ['ignore', 'ignore_ament_install']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs) by extension 'ignore'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs) by extension 'ignore_ament_install'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs) by extensions ['colcon_pkg']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs) by extension 'colcon_pkg'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs) by extensions ['colcon_meta']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs) by extension 'colcon_meta'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs) by extensions ['ros']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs) by extension 'ros'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs) by extensions ['cmake', 'python']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs) by extension 'cmake'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs) by extension 'python'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs) by extensions ['python_setup_py']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs) by extension 'python_setup_py'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build) by extensions ['ignore', 'ignore_ament_install']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build) by extension 'ignore'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build) ignored
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/cache) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/cache) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/cache) by extension 'ignore_ament_install'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/cache) by extensions ['colcon_pkg']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/cache) by extension 'colcon_pkg'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/cache) by extensions ['colcon_meta']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/cache) by extension 'colcon_meta'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/cache) by extensions ['ros']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/cache) by extension 'ros'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/cache) by extensions ['cmake', 'python']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/cache) by extension 'cmake'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/cache) by extension 'python'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/cache) by extensions ['python_setup_py']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/cache) by extension 'python_setup_py'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install) ignored
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/log) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/log) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/log) ignored
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src) by extension 'ros'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src) by extensions ['cmake', 'python']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src) by extension 'cmake'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src) by extension 'python'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src) by extensions ['python_setup_py']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src) by extension 'python_setup_py'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2) by extensions ['ignore', 'ignore_ament_install']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2) by extension 'ignore'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2) by extension 'ignore_ament_install'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2) by extensions ['colcon_pkg']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2) by extension 'colcon_pkg'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2) by extensions ['colcon_meta']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2) by extension 'colcon_meta'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2) by extensions ['ros']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2) by extension 'ros'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2) by extensions ['cmake', 'python']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2) by extension 'cmake'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2) by extension 'python'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2) by extensions ['python_setup_py']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2) by extension 'python_setup_py'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie) by extensions ['ignore', 'ignore_ament_install']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie) by extension 'ignore'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie) by extension 'ignore_ament_install'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie) by extensions ['colcon_pkg']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie) by extension 'colcon_pkg'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie) by extensions ['colcon_meta']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie) by extension 'colcon_meta'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie) by extensions ['ros']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie) by extension 'ros'
+[0.794s] DEBUG:colcon.colcon_core.package_identification:Package '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie' with type 'ros.ament_cmake' and name 'crazyflie'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_examples) by extension 'ignore'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_examples) by extension 'ignore_ament_install'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_examples) by extensions ['colcon_pkg']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_examples) by extension 'colcon_pkg'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_examples) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_examples) by extension 'colcon_meta'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_examples) by extensions ['ros']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_examples) by extension 'ros'
+[0.796s] DEBUG:colcon.colcon_core.package_identification:Package '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_examples' with type 'ros.ament_cmake' and name 'crazyflie_examples'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_interfaces) by extension 'ignore'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_interfaces) by extension 'ignore_ament_install'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_interfaces) by extensions ['colcon_pkg']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_interfaces) by extension 'colcon_pkg'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_interfaces) by extensions ['colcon_meta']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_interfaces) by extension 'colcon_meta'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_interfaces) by extensions ['ros']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_interfaces) by extension 'ros'
+[0.797s] DEBUG:colcon.colcon_core.package_identification:Package '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_interfaces' with type 'ros.ament_cmake' and name 'crazyflie_interfaces'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_py) by extensions ['ignore', 'ignore_ament_install']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_py) by extension 'ignore'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_py) by extension 'ignore_ament_install'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_py) by extensions ['colcon_pkg']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_py) by extension 'colcon_pkg'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_py) by extensions ['colcon_meta']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_py) by extension 'colcon_meta'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_py) by extensions ['ros']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_py) by extension 'ros'
+[0.798s] DEBUG:colcon.colcon_core.package_identification:Package '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_py' with type 'ros.ament_python' and name 'crazyflie_py'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_sim) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_sim) by extension 'ignore_ament_install'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_sim) by extensions ['colcon_pkg']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_sim) by extension 'colcon_pkg'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_sim) by extensions ['colcon_meta']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_sim) by extension 'colcon_meta'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_sim) by extensions ['ros']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_sim) by extension 'ros'
+[0.799s] DEBUG:colcon.colcon_core.package_identification:Package '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_sim' with type 'ros.ament_cmake' and name 'crazyflie_sim'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs) by extension 'ignore'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs) by extension 'ignore_ament_install'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs) by extensions ['colcon_pkg']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs) by extension 'colcon_pkg'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs) by extensions ['colcon_meta']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs) by extension 'colcon_meta'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs) by extensions ['ros']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs) by extension 'ros'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs) by extensions ['cmake', 'python']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs) by extension 'cmake'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs) by extension 'python'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs) by extensions ['python_setup_py']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs) by extension 'python_setup_py'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/generated) by extensions ['ignore', 'ignore_ament_install']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/generated) by extension 'ignore'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/generated) by extension 'ignore_ament_install'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/generated) by extensions ['colcon_pkg']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/generated) by extension 'colcon_pkg'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/generated) by extensions ['colcon_meta']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/generated) by extension 'colcon_meta'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/generated) by extensions ['ros']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/generated) by extension 'ros'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/generated) by extensions ['cmake', 'python']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/generated) by extension 'cmake'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/generated) by extension 'python'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/generated) by extensions ['python_setup_py']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/generated) by extension 'python_setup_py'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/howto) by extensions ['ignore', 'ignore_ament_install']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/howto) by extension 'ignore'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/howto) by extension 'ignore_ament_install'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/howto) by extensions ['colcon_pkg']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/howto) by extension 'colcon_pkg'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/howto) by extensions ['colcon_meta']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/howto) by extension 'colcon_meta'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/howto) by extensions ['ros']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/howto) by extension 'ros'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/howto) by extensions ['cmake', 'python']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/howto) by extension 'cmake'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/howto) by extension 'python'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/howto) by extensions ['python_setup_py']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/howto) by extension 'python_setup_py'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/images) by extension 'ignore'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/images) by extension 'ignore_ament_install'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/images) by extensions ['colcon_pkg']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/images) by extension 'colcon_pkg'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/images) by extensions ['colcon_meta']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/images) by extension 'colcon_meta'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/images) by extensions ['ros']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/images) by extension 'ros'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/images) by extensions ['cmake', 'python']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/images) by extension 'cmake'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/images) by extension 'python'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/images) by extensions ['python_setup_py']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/images) by extension 'python_setup_py'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/tutorials) by extension 'ignore'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/tutorials) by extension 'ignore_ament_install'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/tutorials) by extensions ['colcon_pkg']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/tutorials) by extension 'colcon_pkg'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/tutorials) by extensions ['colcon_meta']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/tutorials) by extension 'colcon_meta'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/tutorials) by extensions ['ros']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/tutorials) by extension 'ros'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/tutorials) by extensions ['cmake', 'python']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/tutorials) by extension 'cmake'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/tutorials) by extension 'python'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/tutorials) by extensions ['python_setup_py']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs/tutorials) by extension 'python_setup_py'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2) by extensions ['ignore', 'ignore_ament_install']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2) by extension 'ignore'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2) by extension 'ignore_ament_install'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2) by extensions ['colcon_pkg']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2) by extension 'colcon_pkg'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2) by extensions ['colcon_meta']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2) by extension 'colcon_meta'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2) by extensions ['ros']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2) by extension 'ros'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2) by extensions ['cmake', 'python']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2) by extension 'cmake'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2) by extension 'python'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2) by extensions ['python_setup_py']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2) by extension 'python_setup_py'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2/images) by extensions ['ignore', 'ignore_ament_install']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2/images) by extension 'ignore'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2/images) by extension 'ignore_ament_install'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2/images) by extensions ['colcon_pkg']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2/images) by extension 'colcon_pkg'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2/images) by extensions ['colcon_meta']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2/images) by extension 'colcon_meta'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2/images) by extensions ['ros']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2/images) by extension 'ros'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2/images) by extensions ['cmake', 'python']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2/images) by extension 'cmake'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2/images) by extension 'python'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2/images) by extensions ['python_setup_py']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/docs2/images) by extension 'python_setup_py'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/prebuilt) by extensions ['ignore', 'ignore_ament_install']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/prebuilt) by extension 'ignore'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/prebuilt) by extension 'ignore_ament_install'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/prebuilt) by extensions ['colcon_pkg']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/prebuilt) by extension 'colcon_pkg'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/prebuilt) by extensions ['colcon_meta']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/prebuilt) by extension 'colcon_meta'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/prebuilt) by extensions ['ros']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/prebuilt) by extension 'ros'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/prebuilt) by extensions ['cmake', 'python']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/prebuilt) by extension 'cmake'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/prebuilt) by extension 'python'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/prebuilt) by extensions ['python_setup_py']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/prebuilt) by extension 'python_setup_py'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws) by extension 'ignore'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws) by extension 'ignore_ament_install'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws) by extensions ['colcon_pkg']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws) by extension 'colcon_pkg'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws) by extensions ['colcon_meta']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws) by extension 'colcon_meta'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws) by extensions ['ros']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws) by extension 'ros'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws) by extensions ['cmake', 'python']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws) by extension 'cmake'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws) by extension 'python'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws) by extensions ['python_setup_py']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws) by extension 'python_setup_py'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src) by extension 'ignore'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src) by extension 'ignore_ament_install'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src) by extensions ['colcon_pkg']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src) by extension 'colcon_pkg'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src) by extensions ['colcon_meta']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src) by extension 'colcon_meta'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src) by extensions ['ros']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src) by extension 'ros'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src) by extensions ['cmake', 'python']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src) by extension 'cmake'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src) by extension 'python'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src) by extensions ['python_setup_py']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src) by extension 'python_setup_py'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['ignore', 'ignore_ament_install']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'ignore'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'ignore_ament_install'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['colcon_pkg']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'colcon_pkg'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['colcon_meta']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'colcon_meta'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['ros']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'ros'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['cmake', 'python']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'cmake'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'python'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm) by extensions ['python_setup_py']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm) by extension 'python_setup_py'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'ignore'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'ignore_ament_install'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['colcon_pkg']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'colcon_pkg'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['colcon_meta']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'colcon_meta'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['ros']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'ros'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['cmake', 'python']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'cmake'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'python'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extensions ['python_setup_py']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/launch) by extension 'python_setup_py'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'ignore'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'ignore_ament_install'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['colcon_pkg']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'colcon_pkg'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['colcon_meta']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'colcon_meta'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['ros']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'ros'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['cmake', 'python']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'cmake'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'python'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extensions ['python_setup_py']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts) by extension 'python_setup_py'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['ignore', 'ignore_ament_install']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'ignore'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'ignore_ament_install'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['colcon_pkg']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'colcon_pkg'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['colcon_meta']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'colcon_meta'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['ros']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'ros'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['cmake', 'python']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'cmake'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'python'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extensions ['python_setup_py']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing2_pps) by extension 'python_setup_py'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'ignore'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'ignore_ament_install'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['colcon_pkg']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'colcon_pkg'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['colcon_meta']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'colcon_meta'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['ros']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'ros'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['cmake', 'python']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'cmake'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'python'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extensions ['python_setup_py']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/crossing4_pps) by extension 'python_setup_py'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'ignore_ament_install'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['colcon_pkg']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'colcon_pkg'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['colcon_meta']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'colcon_meta'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['ros']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'ros'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['cmake', 'python']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'cmake'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'python'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extensions ['python_setup_py']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories) by extension 'python_setup_py'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'ignore_ament_install'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['colcon_pkg']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'colcon_pkg'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['colcon_meta']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'colcon_meta'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['ros']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'ros'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['cmake', 'python']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'cmake'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'python'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extensions ['python_setup_py']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/1) by extension 'python_setup_py'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['ignore', 'ignore_ament_install']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'ignore'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'ignore_ament_install'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['colcon_pkg']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'colcon_pkg'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['colcon_meta']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'colcon_meta'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['ros']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'ros'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['cmake', 'python']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'cmake'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'python'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extensions ['python_setup_py']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/2) by extension 'python_setup_py'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['ignore', 'ignore_ament_install']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'ignore'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'ignore_ament_install'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['colcon_pkg']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'colcon_pkg'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['colcon_meta']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'colcon_meta'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['ros']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'ros'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['cmake', 'python']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'cmake'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'python'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extensions ['python_setup_py']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/3) by extension 'python_setup_py'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['ignore', 'ignore_ament_install']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'ignore'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'ignore_ament_install'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['colcon_pkg']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'colcon_pkg'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['colcon_meta']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'colcon_meta'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['ros']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'ros'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['cmake', 'python']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'cmake'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'python'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extensions ['python_setup_py']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/4) by extension 'python_setup_py'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['ignore', 'ignore_ament_install']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'ignore'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'ignore_ament_install'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['colcon_pkg']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'colcon_pkg'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['colcon_meta']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'colcon_meta'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['ros']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'ros'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['cmake', 'python']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'cmake'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'python'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extensions ['python_setup_py']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/5) by extension 'python_setup_py'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['ignore', 'ignore_ament_install']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'ignore'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'ignore_ament_install'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['colcon_pkg']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'colcon_pkg'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['colcon_meta']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'colcon_meta'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['ros']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'ros'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['cmake', 'python']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'cmake'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'python'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extensions ['python_setup_py']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/6) by extension 'python_setup_py'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['ignore', 'ignore_ament_install']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'ignore'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'ignore_ament_install'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['colcon_pkg']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'colcon_pkg'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['colcon_meta']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'colcon_meta'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['ros']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'ros'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['cmake', 'python']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'cmake'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'python'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extensions ['python_setup_py']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/sequence_trajectories/7) by extension 'python_setup_py'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['ignore', 'ignore_ament_install']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'ignore'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'ignore_ament_install'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['colcon_pkg']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'colcon_pkg'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['colcon_meta']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'colcon_meta'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['ros']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'ros'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['cmake', 'python']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'cmake'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'python'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extensions ['python_setup_py']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/ros_ws/src/crazyswarm/scripts/swap6v_pps) by extension 'python_setup_py'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/systemtests) by extensions ['ignore', 'ignore_ament_install']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/systemtests) by extension 'ignore'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/systemtests) by extension 'ignore_ament_install'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/systemtests) by extensions ['colcon_pkg']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/systemtests) by extension 'colcon_pkg'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/systemtests) by extensions ['colcon_meta']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/systemtests) by extension 'colcon_meta'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/systemtests) by extensions ['ros']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/systemtests) by extension 'ros'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/systemtests) by extensions ['cmake', 'python']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/systemtests) by extension 'cmake'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/systemtests) by extension 'python'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/systemtests) by extensions ['python_setup_py']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/systemtests) by extension 'python_setup_py'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi) by extensions ['ignore', 'ignore_ament_install']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi) by extension 'ignore'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi) by extension 'ignore_ament_install'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi) by extensions ['colcon_pkg']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi) by extension 'colcon_pkg'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi) by extensions ['colcon_meta']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi) by extension 'colcon_meta'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi) by extensions ['ros']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi) by extension 'ros'
+[0.816s] DEBUG:colcon.colcon_core.package_identification:Package '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi' with type 'ros.ament_python' and name 'hsi'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi_interfaces) by extension 'ignore'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi_interfaces) by extension 'ignore_ament_install'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi_interfaces) by extensions ['colcon_pkg']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi_interfaces) by extension 'colcon_pkg'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi_interfaces) by extensions ['colcon_meta']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi_interfaces) by extension 'colcon_meta'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi_interfaces) by extensions ['ros']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi_interfaces) by extension 'ros'
+[0.817s] DEBUG:colcon.colcon_core.package_identification:Package '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi_interfaces' with type 'ros.ament_cmake' and name 'hsi_interfaces'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking) by extension 'ignore'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking) by extension 'ignore_ament_install'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking) by extensions ['colcon_pkg']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking) by extension 'colcon_pkg'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking) by extensions ['colcon_meta']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking) by extension 'colcon_meta'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking) by extensions ['ros']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking) by extension 'ros'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking) by extensions ['cmake', 'python']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking) by extension 'cmake'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking) by extension 'python'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking) by extensions ['python_setup_py']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking) by extension 'python_setup_py'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking) by extensions ['ignore', 'ignore_ament_install']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking) by extension 'ignore'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking) by extension 'ignore_ament_install'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking) by extensions ['colcon_pkg']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking) by extension 'colcon_pkg'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking) by extensions ['colcon_meta']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking) by extension 'colcon_meta'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking) by extensions ['ros']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking) by extension 'ros'
+[0.819s] DEBUG:colcon.colcon_core.package_identification:Package '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking' with type 'ros.ament_cmake' and name 'motion_capture_tracking'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking_interfaces) by extension 'ignore'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking_interfaces) by extension 'ignore_ament_install'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking_interfaces) by extensions ['colcon_pkg']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking_interfaces) by extension 'colcon_pkg'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking_interfaces) by extensions ['colcon_meta']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking_interfaces) by extension 'colcon_meta'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking_interfaces) by extensions ['ros']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking_interfaces) by extension 'ros'
+[0.820s] DEBUG:colcon.colcon_core.package_identification:Package '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking_interfaces' with type 'ros.ament_cmake' and name 'motion_capture_tracking_interfaces'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors) by extension 'ignore'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors) by extension 'ignore_ament_install'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors) by extensions ['colcon_pkg']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors) by extension 'colcon_pkg'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors) by extensions ['colcon_meta']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors) by extension 'colcon_meta'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors) by extensions ['ros']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors) by extension 'ros'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors) by extensions ['cmake', 'python']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors) by extension 'cmake'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors) by extension 'python'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors) by extensions ['python_setup_py']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors) by extension 'python_setup_py'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/bioharness) by extensions ['ignore', 'ignore_ament_install']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/bioharness) by extension 'ignore'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/bioharness) by extension 'ignore_ament_install'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/bioharness) by extensions ['colcon_pkg']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/bioharness) by extension 'colcon_pkg'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/bioharness) by extensions ['colcon_meta']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/bioharness) by extension 'colcon_meta'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/bioharness) by extensions ['ros']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/bioharness) by extension 'ros'
+[0.821s] DEBUG:colcon.colcon_core.package_identification:Package '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/bioharness' with type 'ros.ament_python' and name 'bioharness'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/gesture) by extensions ['ignore', 'ignore_ament_install']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/gesture) by extension 'ignore'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/gesture) by extension 'ignore_ament_install'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/gesture) by extensions ['colcon_pkg']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/gesture) by extension 'colcon_pkg'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/gesture) by extensions ['colcon_meta']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/gesture) by extension 'colcon_meta'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/gesture) by extensions ['ros']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/gesture) by extension 'ros'
+[0.822s] DEBUG:colcon.colcon_core.package_identification:Package '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/gesture' with type 'ros.ament_python' and name 'gesture'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/joystick) by extensions ['ignore', 'ignore_ament_install']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/joystick) by extension 'ignore'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/joystick) by extension 'ignore_ament_install'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/joystick) by extensions ['colcon_pkg']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/joystick) by extension 'colcon_pkg'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/joystick) by extensions ['colcon_meta']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/joystick) by extension 'colcon_meta'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/joystick) by extensions ['ros']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/joystick) by extension 'ros'
+[0.823s] DEBUG:colcon.colcon_core.package_identification:Package '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/joystick' with type 'ros.ament_python' and name 'joystick'
+[0.823s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

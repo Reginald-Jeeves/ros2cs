@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing cs_bioharness.egg-info/PKG-INFO
+writing dependency_links to cs_bioharness.egg-info/dependency_links.txt
+writing entry points to cs_bioharness.egg-info/entry_points.txt
+writing requirements to cs_bioharness.egg-info/requires.txt
+writing top-level names to cs_bioharness.egg-info/top_level.txt
+reading manifest file 'cs_bioharness.egg-info/SOURCES.txt'
+writing manifest file 'cs_bioharness.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/python3.10/site-packages/cs-bioharness.egg-link (link to .)
+Installing bioharness_pull script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/cs_bioharness
+Installing draw_circle script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/cs_bioharness
+
+Installed /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness
+running install_data

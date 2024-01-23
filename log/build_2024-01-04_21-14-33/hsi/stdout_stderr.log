@@ -1,0 +1,33 @@
+running develop
+Removing /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/python3.10/site-packages/hsi.egg-link (link to .)
+running egg_info
+writing ../../build/hsi/hsi.egg-info/PKG-INFO
+writing dependency_links to ../../build/hsi/hsi.egg-info/dependency_links.txt
+writing entry points to ../../build/hsi/hsi.egg-info/entry_points.txt
+writing requirements to ../../build/hsi/hsi.egg-info/requires.txt
+writing top-level names to ../../build/hsi/hsi.egg-info/top_level.txt
+reading manifest file '../../build/hsi/hsi.egg-info/SOURCES.txt'
+writing manifest file '../../build/hsi/hsi.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi/build
+creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi/build/lib
+creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi/build/lib/hsi
+copying hsi/__init__.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi/build/lib/hsi
+copying hsi/print_state.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi/build/lib/hsi
+copying hsi/cf_node.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi/build/lib/hsi
+running install
+running install_lib
+creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/python3.10/site-packages/hsi
+copying /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi/build/lib/hsi/__init__.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/python3.10/site-packages/hsi
+copying /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi/build/lib/hsi/print_state.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/python3.10/site-packages/hsi
+copying /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi/build/lib/hsi/cf_node.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/python3.10/site-packages/hsi
+byte-compiling /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/python3.10/site-packages/hsi/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/python3.10/site-packages/hsi/print_state.py to print_state.cpython-310.pyc
+byte-compiling /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/python3.10/site-packages/hsi/cf_node.py to cf_node.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/hsi/hsi.egg-info to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/python3.10/site-packages/hsi-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cf_node script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/hsi
+writing list of installed files to '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi/install.log'

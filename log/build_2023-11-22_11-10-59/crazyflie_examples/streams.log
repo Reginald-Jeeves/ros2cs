@@ -1,0 +1,89 @@
+[0.025s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py/lib/python3.10/site-packages:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples
+[0.031s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.127s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.199s] -- Found ament_cmake_pytest: 1.3.5 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.788s] -- Configuring done
+[0.790s] -- Generating done
+[0.790s] -- Build files have been written to: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_examples
+[0.792s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py/lib/python3.10/site-packages:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/crazyswarm2/crazyflie_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples
+[0.793s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py/lib/python3.10/site-packages:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_examples -- -j12 -l12
+[0.827s] Built target ament_cmake_python_symlink_crazyflie_examples_setup
+[0.832s] Built target ament_cmake_python_symlink_crazyflie_examples
+[0.969s] running egg_info
+[0.969s] writing crazyflie_examples.egg-info/PKG-INFO
+[0.970s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[0.970s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[0.970s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[0.971s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.971s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[0.987s] Built target ament_cmake_python_build_crazyflie_examples_egg
+[1.014s] running install_scripts
+[1.028s] running egg_info
+[1.028s] writing crazyflie_examples.egg-info/PKG-INFO
+[1.029s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[1.029s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[1.029s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[1.030s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[1.031s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[1.031s] Installing cmd_full_state script to scripts
+[1.031s] Installing figure8 script to scripts
+[1.031s] Installing hello_world script to scripts
+[1.032s] Installing multi_trajectory script to scripts
+[1.032s] Installing nice_hover script to scripts
+[1.032s] Installing set_param script to scripts
+[1.051s] Built target ament_cmake_python_build_crazyflie_examples_scripts
+[1.058s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py/lib/python3.10/site-packages:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_examples -- -j12 -l12
+[1.071s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py/lib/python3.10/site-packages:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_examples
+[1.076s] -- Install configuration: ""
+[1.076s] -- Execute custom install script
+[1.076s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.sh
+[1.076s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.dsv
+[1.077s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/PKG-INFO
+[1.077s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/SOURCES.txt
+[1.077s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/dependency_links.txt
+[1.077s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/entry_points.txt
+[1.077s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/top_level.txt
+[1.077s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/lib/crazyflie_examples//cmd_full_state
+[1.077s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/lib/crazyflie_examples//figure8
+[1.077s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/lib/crazyflie_examples//hello_world
+[1.077s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/lib/crazyflie_examples//multi_trajectory
+[1.077s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/lib/crazyflie_examples//nice_hover
+[1.077s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/lib/crazyflie_examples//set_param
+[1.077s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/__init__.py
+[1.077s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/cmd_full_state.py
+[1.077s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/figure8.csv
+[1.078s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory/traj0.csv
+[1.078s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory/traj1.csv
+[1.078s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/figure8.py
+[1.078s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/hello_world.py
+[1.078s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/multi_trajectory.py
+[1.078s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/nice_hover.py
+[1.078s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/set_param.py
+[1.078s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples//config/nav2_params.yaml
+[1.078s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples//config/nav2_view.rviz
+[1.078s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples//data/map.data
+[1.078s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples//data/map.pgm
+[1.078s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples//data/map.posegraph
+[1.078s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples//data/map.yaml
+[1.078s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples//launch/keyboard_velmux_launch.py
+[1.078s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_mapping_launch.py
+[1.079s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_nav2_launch.py
+[1.079s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/ament_index/resource_index/package_run_dependencies/crazyflie_examples
+[1.079s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/ament_index/resource_index/parent_prefix_path/crazyflie_examples
+[1.079s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.sh
+[1.079s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.dsv
+[1.079s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples/environment/path.sh
+[1.079s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples/environment/path.dsv
+[1.079s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples/local_setup.bash
+[1.079s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples/local_setup.sh
+[1.079s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples/local_setup.zsh
+[1.079s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples/local_setup.dsv
+[1.079s] -- Symlinking: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples/package.dsv
+[1.084s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/ament_index/resource_index/packages/crazyflie_examples
+[1.084s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig.cmake
+[1.084s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig-version.cmake
+[1.085s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/share/crazyflie_examples/package.xml
+[1.105s] Listing '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples'...
+[1.105s] Listing '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data'...
+[1.105s] Listing '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory'...
+[1.110s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py/lib/python3.10/site-packages:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_examples

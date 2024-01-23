@@ -1,0 +1,64 @@
+[0.307s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie': CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_interfaces:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_sim:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness:/opt/ros/humble LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/lib:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/lib:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie -- -j12 -l12
+[0.344s] [  5%] Built target teleop
+[0.346s] [ 27%] Built target crazyflieLinkCpp
+[0.359s] [ 35%] Built target crazyflie_cpp
+[0.391s] [ 40%] Built target crazyflie_server
+[0.392s] [ 45%] Built target scan
+[0.393s] [ 50%] Built target reboot
+[0.394s] [ 55%] Built target console
+[0.395s] [ 60%] Built target battery
+[0.395s] [ 65%] Built target version
+[0.398s] [ 70%] Built target listLogVariables
+[0.399s] [ 75%] Built target listMemories
+[0.403s] [ 80%] Built target comCheck
+[0.406s] [ 85%] Built target listParams
+[0.409s] [ 90%] Built target log
+[0.420s] [100%] Built target downloadUSDLogfile
+[0.420s] [100%] Built target setParam
+[0.431s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_interfaces:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_sim:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness:/opt/ros/humble LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/lib:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/lib:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie -- -j12 -l12
+[0.464s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie': CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_interfaces:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_sim:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness:/opt/ros/humble LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/lib:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/lib:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie
+[0.470s] -- Install configuration: ""
+[0.471s] -- Execute custom install script
+[0.471s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/comCheck
+[0.471s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/scan
+[0.471s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/listParams
+[0.471s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/listLogVariables
+[0.471s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/listMemories
+[0.472s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/reboot
+[0.472s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/battery
+[0.472s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/version
+[0.472s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/console
+[0.472s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/log
+[0.472s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/setParam
+[0.472s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/downloadUSDLogfile
+[0.472s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/teleop
+[0.472s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/crazyflie_server
+[0.473s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/crazyflie_server.py
+[0.473s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/chooser.py
+[0.473s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/vel_mux.py
+[0.473s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/cfmult.py
+[0.473s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/lib/crazyflie/simple_mapper_multiranger.py
+[0.473s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie//launch/launch.py
+[0.473s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie//launch/launch_teleop2.py
+[0.473s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie//launch/teleop_launch.py
+[0.474s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie//config/config.rviz
+[0.474s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie//config/crazyflies.yaml
+[0.474s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie//config/motion_capture.yaml
+[0.474s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie//config/server.yaml
+[0.474s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie//config/teleop.yaml
+[0.474s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/ament_index/resource_index/package_run_dependencies/crazyflie
+[0.474s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/ament_index/resource_index/parent_prefix_path/crazyflie
+[0.474s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie/environment/ament_prefix_path.sh
+[0.475s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie/environment/ament_prefix_path.dsv
+[0.475s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie/environment/path.sh
+[0.475s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie/environment/path.dsv
+[0.475s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie/local_setup.bash
+[0.475s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie/local_setup.sh
+[0.475s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie/local_setup.zsh
+[0.475s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie/local_setup.dsv
+[0.475s] -- Symlinking: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie/package.dsv
+[0.483s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/ament_index/resource_index/packages/crazyflie
+[0.483s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie/cmake/crazyflieConfig.cmake
+[0.483s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie/cmake/crazyflieConfig-version.cmake
+[0.484s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie/share/crazyflie/package.xml
+[0.485s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie' returned '0': CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_interfaces:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_sim:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_examples:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness:/opt/ros/humble LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/lib:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/lib:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie

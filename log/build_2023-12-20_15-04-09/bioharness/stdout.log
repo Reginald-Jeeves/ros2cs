@@ -1,0 +1,35 @@
+running develop
+Removing /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages/bioharness.egg-link (link to .)
+running egg_info
+writing ../../../build/bioharness/bioharness.egg-info/PKG-INFO
+writing dependency_links to ../../../build/bioharness/bioharness.egg-info/dependency_links.txt
+writing entry points to ../../../build/bioharness/bioharness.egg-info/entry_points.txt
+writing requirements to ../../../build/bioharness/bioharness.egg-info/requires.txt
+writing top-level names to ../../../build/bioharness/bioharness.egg-info/top_level.txt
+reading manifest file '../../../build/bioharness/bioharness.egg-info/SOURCES.txt'
+writing manifest file '../../../build/bioharness/bioharness.egg-info/SOURCES.txt'
+running build
+running build_py
+copying bioharness/hr_node.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness/build/lib/bioharness
+running install
+running install_lib
+creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages/bioharness
+copying /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness/build/lib/bioharness/my_first_node.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages/bioharness
+copying /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness/build/lib/bioharness/hr_node.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages/bioharness
+copying /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness/build/lib/bioharness/__init__.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages/bioharness
+copying /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness/build/lib/bioharness/hr_pub.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages/bioharness
+copying /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness/build/lib/bioharness/posture_pub.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages/bioharness
+byte-compiling /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages/bioharness/my_first_node.py to my_first_node.cpython-310.pyc
+byte-compiling /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages/bioharness/hr_node.py to hr_node.cpython-310.pyc
+byte-compiling /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages/bioharness/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages/bioharness/hr_pub.py to hr_pub.cpython-310.pyc
+byte-compiling /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages/bioharness/posture_pub.py to posture_pub.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../../build/bioharness/bioharness.egg-info to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages/bioharness-0.0.0-py3.10.egg-info
+running install_scripts
+Installing hr_node script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/bioharness
+Installing hr_pub script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/bioharness
+Installing posture_pub script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/bioharness
+Installing test_node script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/bioharness
+writing list of installed files to '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness/install.log'

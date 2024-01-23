@@ -1,0 +1,22 @@
+[0.865s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/cs_bioharness': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cs_bioharness build --build-base /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/build install --record /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/install.log --single-version-externally-managed
+[1.030s] running egg_info
+[1.031s] writing ../../build/cs_bioharness/cs_bioharness.egg-info/PKG-INFO
+[1.031s] writing dependency_links to ../../build/cs_bioharness/cs_bioharness.egg-info/dependency_links.txt
+[1.031s] writing entry points to ../../build/cs_bioharness/cs_bioharness.egg-info/entry_points.txt
+[1.032s] writing requirements to ../../build/cs_bioharness/cs_bioharness.egg-info/requires.txt
+[1.032s] writing top-level names to ../../build/cs_bioharness/cs_bioharness.egg-info/top_level.txt
+[1.033s] reading manifest file '../../build/cs_bioharness/cs_bioharness.egg-info/SOURCES.txt'
+[1.033s] writing manifest file '../../build/cs_bioharness/cs_bioharness.egg-info/SOURCES.txt'
+[1.033s] running build
+[1.033s] running build_py
+[1.034s] running install
+[1.034s] running install_lib
+[1.034s] running install_data
+[1.034s] running install_egg_info
+[1.035s] removing '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/python3.10/site-packages/cs_bioharness-0.0.0-py3.10.egg-info' (and everything under it)
+[1.035s] Copying ../../build/cs_bioharness/cs_bioharness.egg-info to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/python3.10/site-packages/cs_bioharness-0.0.0-py3.10.egg-info
+[1.036s] running install_scripts
+[1.050s] Installing bioharness_pull script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/cs_bioharness
+[1.050s] Installing draw_circle script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/cs_bioharness
+[1.050s] writing list of installed files to '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/install.log'
+[1.219s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/cs_bioharness' returned '0': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cs_bioharness build --build-base /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/build install --record /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/install.log --single-version-externally-managed

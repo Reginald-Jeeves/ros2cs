@@ -1,0 +1,8 @@
+setup.py
+hsi_interfaces/__init__.py
+hsi_interfaces.egg-info/PKG-INFO
+hsi_interfaces.egg-info/SOURCES.txt
+hsi_interfaces.egg-info/dependency_links.txt
+hsi_interfaces.egg-info/top_level.txt
+hsi_interfaces/msg/__init__.py
+hsi_interfaces/msg/_gesture.py

@@ -1,0 +1,4 @@
+[console_scripts]
+gesture_node = gesture.gesture_node_2:main
+gesture_pub = gesture.gesture_pub:main
+

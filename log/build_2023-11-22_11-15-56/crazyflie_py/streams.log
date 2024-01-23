@@ -1,0 +1,16 @@
+[0.490s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_py': AMENT_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_py/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py/lib/python3.10/site-packages:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_py/build --no-deps install_data
+[0.623s] running develop
+[0.694s] running egg_info
+[0.694s] writing crazyflie_py.egg-info/PKG-INFO
+[0.694s] writing dependency_links to crazyflie_py.egg-info/dependency_links.txt
+[0.694s] writing entry points to crazyflie_py.egg-info/entry_points.txt
+[0.694s] writing requirements to crazyflie_py.egg-info/requires.txt
+[0.694s] writing top-level names to crazyflie_py.egg-info/top_level.txt
+[0.695s] reading manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[0.695s] writing manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[0.696s] running build_ext
+[0.696s] Creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py/lib/python3.10/site-packages/crazyflie-py.egg-link (link to .)
+[0.696s] 
+[0.696s] Installed /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_py
+[0.696s] running install_data
+[0.714s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_py' returned '0': AMENT_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_py/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py/lib/python3.10/site-packages:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_py/build --no-deps install_data

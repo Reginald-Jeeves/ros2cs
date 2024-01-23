@@ -1,0 +1,6 @@
+[console_scripts]
+hr_node = bioharness.hr_node:main
+hr_pub = bioharness.hr_pub:main
+posture_pub = bioharness.posture_pub:main
+test_node = bioharness.my_first_node:main
+

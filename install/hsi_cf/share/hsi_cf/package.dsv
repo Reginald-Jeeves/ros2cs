@@ -1,0 +1,9 @@
+source;share/hsi_cf/hook/pythonpath.ps1
+source;share/hsi_cf/hook/pythonpath.dsv
+source;share/hsi_cf/hook/pythonpath.sh
+source;share/hsi_cf/hook/ament_prefix_path.ps1
+source;share/hsi_cf/hook/ament_prefix_path.dsv
+source;share/hsi_cf/hook/ament_prefix_path.sh
+source;../../build/hsi_cf/share/hsi_cf/hook/pythonpath_develop.ps1
+source;../../build/hsi_cf/share/hsi_cf/hook/pythonpath_develop.dsv
+source;../../build/hsi_cf/share/hsi_cf/hook/pythonpath_develop.sh

@@ -1,0 +1,156 @@
+[0.030s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/motion_capture_tracking': AMENT_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking -DCMAKE_INSTALL_PREFIX=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking
+[0.039s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.140s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.149s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.172s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.172s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.173s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.191s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.253s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.253s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.367s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.490s] -- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.797s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.861s] -- Found motion_capture_tracking_interfaces: 1.0.0 (/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake)
+[0.992s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.008s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.010s] -- looking for PCL_COMMON
+[1.010s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+[1.013s] [33mCMake Warning (dev) at deps/librigidbodytracker/CMakeLists.txt:7 (find_package):
+[1.013s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.014s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.014s]   command to set the policy and suppress this warning.
+[1.014s] 
+[1.014s]   CMake variable PCL_ROOT is set to:
+[1.014s] 
+[1.014s]     /usr
+[1.014s] 
+[1.014s]   For compatibility, CMake is ignoring the variable.
+[1.014s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.014s] [0m
+[1.050s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.419s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.427s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.428s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.617s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.624s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.632s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.789s] -- Found Qhull version 8.0.2
+[1.943s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.088s] -- looking for PCL_KDTREE
+[2.088s] -- looking for PCL_OCTREE
+[2.088s] -- looking for PCL_SEARCH
+[2.089s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.089s] -- looking for PCL_FILTERS
+[2.089s] -- looking for PCL_2D
+[2.089s] -- looking for PCL_GEOMETRY
+[2.089s] -- looking for PCL_IO
+[2.090s] -- looking for PCL_FEATURES
+[2.090s] -- looking for PCL_ML
+[2.090s] -- looking for PCL_SEGMENTATION
+[2.091s] -- looking for PCL_VISUALIZATION
+[2.091s] -- looking for PCL_SURFACE
+[2.091s] -- looking for PCL_REGISTRATION
+[2.091s] -- looking for PCL_KEYPOINTS
+[2.092s] -- looking for PCL_TRACKING
+[2.092s] -- looking for PCL_RECOGNITION
+[2.092s] -- looking for PCL_STEREO
+[2.093s] -- looking for PCL_APPS
+[2.093s] -- looking for PCL_IN_HAND_SCANNER
+[2.093s] -- looking for PCL_MODELER
+[2.093s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.094s] -- looking for PCL_OUTOFCORE
+[2.094s] -- looking for PCL_PEOPLE
+[2.095s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[2.108s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.5") found components: system 
+[2.123s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.5") found components: system thread 
+[2.134s] [0mCMake Deprecation Warning at deps/libmotioncapture/deps/vrpn/CMakeLists.txt:1 (cmake_minimum_required):
+[2.134s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[2.135s]   CMake.
+[2.135s] 
+[2.135s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[2.135s]   CMake that the project does not need compatibility with older versions.
+[2.135s] 
+[2.135s] [0m
+[2.241s] [0mCMake Deprecation Warning at deps/libmotioncapture/deps/vrpn/quat/CMakeLists.txt:1 (cmake_minimum_required):
+[2.241s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[2.242s]   CMake.
+[2.242s] 
+[2.242s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[2.242s]   CMake that the project does not need compatibility with older versions.
+[2.243s] 
+[2.243s] [0m
+[3.177s] -- NOTE: You have VRPN_USE_LOCAL_HIDAPI enabled, but VRPN_USE_HID disabled: HIDAPI will only be built if you enable HID support for VRPN
+[3.177s] [0mCMake Deprecation Warning at deps/libmotioncapture/deps/vrpn/cmake/FindOpenHaptics.cmake:56 (cmake_minimum_required):
+[3.177s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[3.177s]   CMake.
+[3.177s] 
+[3.177s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[3.178s]   CMake that the project does not need compatibility with older versions.
+[3.178s] Call Stack (most recent call first):
+[3.178s]   deps/libmotioncapture/deps/vrpn/CMakeLists.txt:468 (find_package)
+[3.178s] 
+[3.178s] [0m
+[3.190s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[3.191s]   The package name passed to `find_package_handle_standard_args` (I2CDEV)
+[3.191s]   does not match the name of the calling package (libi2c-dev).  This can lead
+[3.191s]   to problems in calling code that expects `find_package` result variables
+[3.191s]   (e.g., `_FOUND`) to follow a certain pattern.
+[3.191s] Call Stack (most recent call first):
+[3.191s]   deps/libmotioncapture/deps/vrpn/cmake/Findlibi2c-dev.cmake:43 (find_package_handle_standard_args)
+[3.191s]   deps/libmotioncapture/deps/vrpn/CMakeLists.txt:518 (find_package)
+[3.191s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.191s] [0m
+[3.226s] [0mCMake Deprecation Warning at deps/libmotioncapture/deps/vrpn/client_src/CMakeLists.txt:1 (cmake_minimum_required):
+[3.226s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[3.227s]   CMake.
+[3.227s] 
+[3.227s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[3.227s]   CMake that the project does not need compatibility with older versions.
+[3.227s] 
+[3.227s] [0m
+[3.279s] -- Configuring done
+[3.381s] -- Generating done
+[3.385s] -- Build files have been written to: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/motion_capture_tracking
+[3.400s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/motion_capture_tracking' returned '0': AMENT_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/motion_capture_tracking/motion_capture_tracking -DCMAKE_INSTALL_PREFIX=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking
+[3.401s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/motion_capture_tracking': AMENT_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/motion_capture_tracking -- -j12 -l12
+[3.433s] [35m[1mConsolidate compiler generated dependencies of target quat[0m
+[3.439s] [35m[1mConsolidate compiler generated dependencies of target qualisys_cpp_sdk[0m
+[3.439s] [35m[1mConsolidate compiler generated dependencies of target librigidbodytracker[0m
+[3.441s] [  8%] Built target quat
+[3.443s] [35m[1mConsolidate compiler generated dependencies of target ViconDataStreamSDK_CPP[0m
+[3.455s] [35m[1mConsolidate compiler generated dependencies of target vrpn[0m
+[3.455s] [ 16%] Built target qualisys_cpp_sdk
+[3.462s] [ 19%] Built target librigidbodytracker
+[3.477s] [ 66%] Built target vrpn
+[3.481s] [ 83%] Built target ViconDataStreamSDK_CPP
+[3.494s] [35m[1mConsolidate compiler generated dependencies of target libmotioncapture[0m
+[3.518s] [ 96%] Built target libmotioncapture
+[3.528s] [35m[1mConsolidate compiler generated dependencies of target motion_capture_tracking_node[0m
+[3.545s] [100%] Built target motion_capture_tracking_node
+[3.555s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/motion_capture_tracking' returned '0': AMENT_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/motion_capture_tracking -- -j12 -l12
+[3.590s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/motion_capture_tracking': AMENT_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/motion_capture_tracking
+[3.594s] -- Install configuration: ""
+[3.594s] -- Execute custom install script
+[3.596s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/lib/motion_capture_tracking/motion_capture_tracking_node
+[3.596s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/motion_capture_tracking//launch/launch.py
+[3.596s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/motion_capture_tracking//launch/node.launch
+[3.596s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/motion_capture_tracking//config/cfg.yaml
+[3.597s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/motion_capture_tracking//config/rviz.rviz
+[3.597s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/ament_index/resource_index/package_run_dependencies/motion_capture_tracking
+[3.597s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/ament_index/resource_index/parent_prefix_path/motion_capture_tracking
+[3.597s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/motion_capture_tracking/environment/ament_prefix_path.sh
+[3.597s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/motion_capture_tracking/environment/ament_prefix_path.dsv
+[3.597s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/motion_capture_tracking/environment/path.sh
+[3.597s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/motion_capture_tracking/environment/path.dsv
+[3.598s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.bash
+[3.598s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.sh
+[3.598s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.zsh
+[3.598s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.dsv
+[3.598s] -- Symlinking: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/motion_capture_tracking/package.dsv
+[3.604s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/ament_index/resource_index/packages/motion_capture_tracking
+[3.604s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/motion_capture_tracking/cmake/motion_capture_trackingConfig.cmake
+[3.604s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/motion_capture_tracking/cmake/motion_capture_trackingConfig-version.cmake
+[3.605s] -- Up-to-date symlink: /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking/share/motion_capture_tracking/package.xml
+[3.606s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/motion_capture_tracking' returned '0': AMENT_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/motion_capture_tracking

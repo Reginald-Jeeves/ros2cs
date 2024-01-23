@@ -1,0 +1,23 @@
+[0.487s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness/build --no-deps install_data
+[0.629s] running develop
+[0.716s] running egg_info
+[0.716s] creating bioharness.egg-info
+[0.717s] writing bioharness.egg-info/PKG-INFO
+[0.717s] writing dependency_links to bioharness.egg-info/dependency_links.txt
+[0.717s] writing entry points to bioharness.egg-info/entry_points.txt
+[0.717s] writing requirements to bioharness.egg-info/requires.txt
+[0.717s] writing top-level names to bioharness.egg-info/top_level.txt
+[0.717s] writing manifest file 'bioharness.egg-info/SOURCES.txt'
+[0.717s] reading manifest file 'bioharness.egg-info/SOURCES.txt'
+[0.718s] writing manifest file 'bioharness.egg-info/SOURCES.txt'
+[0.718s] running build_ext
+[0.718s] Creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages/bioharness.egg-link (link to .)
+[0.719s] 
+[0.719s] Installed /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness
+[0.719s] running install_data
+[0.719s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/share/ament_index
+[0.719s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/share/ament_index/resource_index
+[0.719s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/share/ament_index/resource_index/packages
+[0.719s] copying resource/bioharness -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/share/ament_index/resource_index/packages
+[0.719s] copying package.xml -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/share/bioharness
+[0.755s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness' returned '0': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/bioharness/build --no-deps install_data

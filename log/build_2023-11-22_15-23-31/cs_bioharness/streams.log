@@ -1,0 +1,19 @@
+[0.505s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/build --no-deps install_data
+[0.672s] running develop
+[0.758s] running egg_info
+[0.759s] writing cs_bioharness.egg-info/PKG-INFO
+[0.759s] writing dependency_links to cs_bioharness.egg-info/dependency_links.txt
+[0.759s] writing entry points to cs_bioharness.egg-info/entry_points.txt
+[0.759s] writing requirements to cs_bioharness.egg-info/requires.txt
+[0.759s] writing top-level names to cs_bioharness.egg-info/top_level.txt
+[0.760s] reading manifest file 'cs_bioharness.egg-info/SOURCES.txt'
+[0.760s] writing manifest file 'cs_bioharness.egg-info/SOURCES.txt'
+[0.761s] running build_ext
+[0.761s] Creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/python3.10/site-packages/cs-bioharness.egg-link (link to .)
+[0.761s] Installing bioharness_pull script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/cs_bioharness
+[0.762s] Installing draw_circle script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/cs_bioharness
+[0.762s] 
+[0.762s] Installed /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness
+[0.762s] running install_data
+[0.762s] copying package.xml -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/share/cs_bioharness
+[0.785s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness' returned '0': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/build --no-deps install_data

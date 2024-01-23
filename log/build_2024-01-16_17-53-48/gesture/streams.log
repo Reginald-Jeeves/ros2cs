@@ -1,0 +1,22 @@
+[1.221s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/gesture': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/gesture/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/gesture build --build-base /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/gesture/build install --record /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/gesture/install.log --single-version-externally-managed
+[1.363s] running egg_info
+[1.364s] writing ../../../build/gesture/gesture.egg-info/PKG-INFO
+[1.364s] writing dependency_links to ../../../build/gesture/gesture.egg-info/dependency_links.txt
+[1.364s] writing entry points to ../../../build/gesture/gesture.egg-info/entry_points.txt
+[1.364s] writing requirements to ../../../build/gesture/gesture.egg-info/requires.txt
+[1.364s] writing top-level names to ../../../build/gesture/gesture.egg-info/top_level.txt
+[1.366s] reading manifest file '../../../build/gesture/gesture.egg-info/SOURCES.txt'
+[1.367s] writing manifest file '../../../build/gesture/gesture.egg-info/SOURCES.txt'
+[1.367s] running build
+[1.367s] running build_py
+[1.367s] running install
+[1.367s] running install_lib
+[1.369s] running install_data
+[1.369s] running install_egg_info
+[1.370s] removing '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture/lib/python3.10/site-packages/gesture-0.0.0-py3.10.egg-info' (and everything under it)
+[1.370s] Copying ../../../build/gesture/gesture.egg-info to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture/lib/python3.10/site-packages/gesture-0.0.0-py3.10.egg-info
+[1.370s] running install_scripts
+[1.382s] Installing gesture_node script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture/lib/gesture
+[1.382s] Installing gesture_pub script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture/lib/gesture
+[1.382s] writing list of installed files to '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/gesture/install.log'
+[1.400s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/sensors/gesture' returned '0': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/gesture/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/gesture build --build-base /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/gesture/build install --record /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/gesture/install.log --single-version-externally-managed

@@ -1,0 +1,33 @@
+[1.355s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi_cf': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi_cf/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hsi_cf build --build-base /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi_cf/build install --record /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi_cf/install.log --single-version-externally-managed
+[1.591s] running egg_info
+[1.591s] creating ../../build/hsi_cf/hsi_cf.egg-info
+[1.592s] writing ../../build/hsi_cf/hsi_cf.egg-info/PKG-INFO
+[1.592s] writing dependency_links to ../../build/hsi_cf/hsi_cf.egg-info/dependency_links.txt
+[1.592s] writing entry points to ../../build/hsi_cf/hsi_cf.egg-info/entry_points.txt
+[1.592s] writing requirements to ../../build/hsi_cf/hsi_cf.egg-info/requires.txt
+[1.592s] writing top-level names to ../../build/hsi_cf/hsi_cf.egg-info/top_level.txt
+[1.592s] writing manifest file '../../build/hsi_cf/hsi_cf.egg-info/SOURCES.txt'
+[1.593s] reading manifest file '../../build/hsi_cf/hsi_cf.egg-info/SOURCES.txt'
+[1.593s] writing manifest file '../../build/hsi_cf/hsi_cf.egg-info/SOURCES.txt'
+[1.593s] running build
+[1.593s] running build_py
+[1.593s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi_cf/build
+[1.593s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi_cf/build/lib
+[1.594s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi_cf/build/lib/hsi_cf
+[1.594s] copying hsi_cf/__init__.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi_cf/build/lib/hsi_cf
+[1.594s] running install
+[1.594s] running install_lib
+[1.594s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf/lib/python3.10/site-packages/hsi_cf
+[1.594s] copying /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi_cf/build/lib/hsi_cf/__init__.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf/lib/python3.10/site-packages/hsi_cf
+[1.594s] byte-compiling /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf/lib/python3.10/site-packages/hsi_cf/__init__.py to __init__.cpython-310.pyc
+[1.594s] running install_data
+[1.594s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf/share/ament_index
+[1.595s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf/share/ament_index/resource_index
+[1.595s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf/share/ament_index/resource_index/packages
+[1.595s] copying resource/hsi_cf -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf/share/ament_index/resource_index/packages
+[1.595s] copying package.xml -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf/share/hsi_cf
+[1.595s] running install_egg_info
+[1.597s] Copying ../../build/hsi_cf/hsi_cf.egg-info to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf/lib/python3.10/site-packages/hsi_cf-0.0.0-py3.10.egg-info
+[1.598s] running install_scripts
+[1.610s] writing list of installed files to '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi_cf/install.log'
+[1.646s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/hsi_cf' returned '0': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi_cf/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi_cf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hsi_cf build --build-base /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi_cf/build install --record /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi_cf/install.log --single-version-externally-managed

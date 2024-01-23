@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing gesture.egg-info/PKG-INFO
+writing dependency_links to gesture.egg-info/dependency_links.txt
+writing entry points to gesture.egg-info/entry_points.txt
+writing requirements to gesture.egg-info/requires.txt
+writing top-level names to gesture.egg-info/top_level.txt
+reading manifest file 'gesture.egg-info/SOURCES.txt'
+writing manifest file 'gesture.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture/lib/python3.10/site-packages/gesture.egg-link (link to .)
+Installing gesture_node script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture/lib/gesture
+Installing gesture_pub script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture/lib/gesture
+
+Installed /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/gesture
+running install_data

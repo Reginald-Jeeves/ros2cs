@@ -1,0 +1,24 @@
+[0.295s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness:/opt/ros/humble /usr/bin/cmake --build /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_interfaces -- -j12 -l12
+[0.940s] [ 12%] Built target crazyflie_interfaces__rosidl_generator_c
+[0.940s] [ 12%] Built target crazyflie_interfaces__cpp
+[0.940s] [ 12%] Built target ament_cmake_python_symlink_crazyflie_interfaces
+[0.940s] [ 24%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_c
+[0.940s] [ 36%] Built target crazyflie_interfaces__rosidl_typesupport_c
+[0.940s] [ 48%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_cpp
+[0.940s] [ 60%] Built target crazyflie_interfaces__rosidl_typesupport_cpp
+[0.940s] [ 72%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_c
+[0.940s] [ 84%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.941s] [ 84%] Built target crazyflie_interfaces
+[0.941s] [ 85%] Built target crazyflie_interfaces__py
+[0.941s] [ 96%] Built target crazyflie_interfaces__rosidl_generator_py
+[0.941s] [ 97%] Built target crazyflie_interfaces__rosidl_typesupport_c__pyext
+[0.941s] [100%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.941s] [100%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.941s] running egg_info
+[0.941s] writing crazyflie_interfaces.egg-info/PKG-INFO
+[0.941s] writing dependency_links to crazyflie_interfaces.egg-info/dependency_links.txt
+[0.941s] writing top-level names to crazyflie_interfaces.egg-info/top_level.txt
+[0.941s] reading manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'
+[0.941s] writing manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'
+[0.941s] [100%] Built target ament_cmake_python_build_crazyflie_interfaces_egg
+[1.196s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/gesture:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/bioharness:/opt/ros/humble /usr/bin/cmake --build /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_interfaces -- -j12 -l12

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+joystick/__init__.py
+joystick/joystick_node.py
+joystick.egg-info/PKG-INFO
+joystick.egg-info/SOURCES.txt
+joystick.egg-info/dependency_links.txt
+joystick.egg-info/entry_points.txt
+joystick.egg-info/requires.txt
+joystick.egg-info/top_level.txt
+joystick.egg-info/zip-safe
+resource/joystick

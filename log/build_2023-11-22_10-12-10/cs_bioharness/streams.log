@@ -1,0 +1,33 @@
+[0.420s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/cs_bioharness': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cs_bioharness build --build-base /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/build install --record /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/install.log --single-version-externally-managed
+[0.542s] running egg_info
+[0.543s] creating ../../build/cs_bioharness/cs_bioharness.egg-info
+[0.543s] writing ../../build/cs_bioharness/cs_bioharness.egg-info/PKG-INFO
+[0.543s] writing dependency_links to ../../build/cs_bioharness/cs_bioharness.egg-info/dependency_links.txt
+[0.543s] writing entry points to ../../build/cs_bioharness/cs_bioharness.egg-info/entry_points.txt
+[0.543s] writing requirements to ../../build/cs_bioharness/cs_bioharness.egg-info/requires.txt
+[0.543s] writing top-level names to ../../build/cs_bioharness/cs_bioharness.egg-info/top_level.txt
+[0.543s] writing manifest file '../../build/cs_bioharness/cs_bioharness.egg-info/SOURCES.txt'
+[0.544s] reading manifest file '../../build/cs_bioharness/cs_bioharness.egg-info/SOURCES.txt'
+[0.544s] writing manifest file '../../build/cs_bioharness/cs_bioharness.egg-info/SOURCES.txt'
+[0.544s] running build
+[0.544s] running build_py
+[0.544s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/build
+[0.544s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/build/lib
+[0.544s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/build/lib/cs_bioharness
+[0.544s] copying cs_bioharness/__init__.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/build/lib/cs_bioharness
+[0.544s] running install
+[0.545s] running install_lib
+[0.545s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/python3.10/site-packages/cs_bioharness
+[0.545s] copying /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/build/lib/cs_bioharness/__init__.py -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/python3.10/site-packages/cs_bioharness
+[0.545s] byte-compiling /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/python3.10/site-packages/cs_bioharness/__init__.py to __init__.cpython-310.pyc
+[0.545s] running install_data
+[0.545s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/share/ament_index
+[0.545s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/share/ament_index/resource_index
+[0.545s] creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/share/ament_index/resource_index/packages
+[0.546s] copying resource/cs_bioharness -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/share/ament_index/resource_index/packages
+[0.546s] copying package.xml -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/share/cs_bioharness
+[0.546s] running install_egg_info
+[0.546s] Copying ../../build/cs_bioharness/cs_bioharness.egg-info to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/python3.10/site-packages/cs_bioharness-0.0.0-py3.10.egg-info
+[0.547s] running install_scripts
+[0.558s] writing list of installed files to '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/install.log'
+[0.579s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/src/cs_bioharness' returned '0': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/cs_bioharness/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cs_bioharness build --build-base /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/build install --record /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/cs_bioharness/install.log --single-version-externally-managed

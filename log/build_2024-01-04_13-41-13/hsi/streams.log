@@ -1,0 +1,17 @@
+[1.378s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi/build --no-deps install_data
+[1.662s] running develop
+[1.777s] running egg_info
+[1.777s] writing hsi.egg-info/PKG-INFO
+[1.777s] writing dependency_links to hsi.egg-info/dependency_links.txt
+[1.777s] writing entry points to hsi.egg-info/entry_points.txt
+[1.777s] writing requirements to hsi.egg-info/requires.txt
+[1.777s] writing top-level names to hsi.egg-info/top_level.txt
+[1.778s] reading manifest file 'hsi.egg-info/SOURCES.txt'
+[1.778s] writing manifest file 'hsi.egg-info/SOURCES.txt'
+[1.779s] running build_ext
+[1.779s] Creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/python3.10/site-packages/hsi.egg-link (link to .)
+[1.779s] Installing cf_node script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/hsi
+[1.779s] 
+[1.780s] Installed /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi
+[1.780s] running install_data
+[2.036s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi' returned '0': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/hsi/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/hsi/build --no-deps install_data

@@ -1,0 +1,8 @@
+[console_scripts]
+cf_fly_test = hsi_cf.cf_fly_test:main
+cf_node = hsi_cf.cf_node:main
+cf_par_node = hsi_cf.cf_par_node:main
+cf_takeoff = hsi_cf.cf_phy_node:main
+cf_trial = hsi_cf.cf_trial:main
+emergency_landing = hsi_cf.emergency_landing:main
+

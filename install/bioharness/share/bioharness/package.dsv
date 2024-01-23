@@ -1,0 +1,9 @@
+source;share/bioharness/hook/pythonpath.ps1
+source;share/bioharness/hook/pythonpath.dsv
+source;share/bioharness/hook/pythonpath.sh
+source;share/bioharness/hook/ament_prefix_path.ps1
+source;share/bioharness/hook/ament_prefix_path.dsv
+source;share/bioharness/hook/ament_prefix_path.sh
+source;../../build/bioharness/share/bioharness/hook/pythonpath_develop.ps1
+source;../../build/bioharness/share/bioharness/hook/pythonpath_develop.dsv
+source;../../build/bioharness/share/bioharness/hook/pythonpath_develop.sh

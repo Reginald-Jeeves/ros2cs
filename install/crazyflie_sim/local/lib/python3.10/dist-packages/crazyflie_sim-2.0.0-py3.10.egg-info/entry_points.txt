@@ -1,0 +1,1 @@
+/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_sim/ament_cmake_python/crazyflie_sim/crazyflie_sim.egg-info/entry_points.txt

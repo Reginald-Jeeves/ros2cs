@@ -1,0 +1,7 @@
+[  8%] Built target quat
+[ 16%] Built target qualisys_cpp_sdk
+[ 19%] Built target librigidbodytracker
+[ 37%] Built target ViconDataStreamSDK_CPP
+[ 83%] Built target vrpn
+[ 96%] Built target libmotioncapture
+[100%] Built target motion_capture_tracking_node

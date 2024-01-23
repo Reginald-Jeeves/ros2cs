@@ -1,0 +1,17 @@
+[1.183s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/build --no-deps install_data
+[1.554s] running develop
+[1.750s] running egg_info
+[1.750s] writing joystick.egg-info/PKG-INFO
+[1.750s] writing dependency_links to joystick.egg-info/dependency_links.txt
+[1.750s] writing entry points to joystick.egg-info/entry_points.txt
+[1.750s] writing requirements to joystick.egg-info/requires.txt
+[1.750s] writing top-level names to joystick.egg-info/top_level.txt
+[1.752s] reading manifest file 'joystick.egg-info/SOURCES.txt'
+[1.752s] writing manifest file 'joystick.egg-info/SOURCES.txt'
+[1.753s] running build_ext
+[1.753s] Creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/python3.10/site-packages/joystick.egg-link (link to .)
+[1.753s] 
+[1.753s] Installed /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick
+[1.754s] running install_data
+[1.754s] copying package.xml -> /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/share/joystick
+[1.780s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick' returned '0': PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/install/joystick/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/joystick/build --no-deps install_data

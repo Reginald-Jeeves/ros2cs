@@ -1,0 +1,1 @@
+/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2_cs/build/crazyflie_sim/ament_cmake_environment_hooks/local_setup.sh

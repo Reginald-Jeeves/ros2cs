@@ -15,14 +15,14 @@ class cf_pose(Node):
         self.num_cfs = 4
         self.allcfs = allcfs
         self.timeHelper = timeHelper
+        self.Z = Z
         self.cf1_pose_subscriber = self.create_subscription(PoseStamped, '/cf1/pose', self.cf1_pose_callback, 10)
         self.cf2_pose_subscriber = self.create_subscription(PoseStamped, '/cf2/pose', self.cf2_pose_callback, 10)
         self.cf3_pose_subscriber = self.create_subscription(PoseStamped, '/cf3/pose', self.cf3_pose_callback, 10)
         self.cf4_pose_subscriber = self.create_subscription(PoseStamped, '/cf4/pose', self.cf4_pose_callback, 10)
         self._timer = self.create_timer(1.0, self.pose_printer)
-        for i in range(5):
-           self.aggregate()
-        self.allcfs.land(targetHeight=0.02, duration=2.0)
+        self.__agg_timer = self.create_timer(2.0, self.aggregate)
+        #self.allcfs.land(targetHeight=0.02, duration=2.0)
        
 
     def cf1_pose_callback(self, msg):
@@ -55,11 +55,11 @@ class cf_pose(Node):
         self.cent_dist_calc()
     
     def centroid_calc(self):
-        sum = np.zeros(3)
+        pose_sum = np.zeros(3)
         #print(self.pose)
         for num_cf in range(self.num_cfs):
-            sum = sum + self.pose[num_cf]
-        centroid = np.divide(sum,self.num_cfs)
+            pose_sum = pose_sum + self.pose[num_cf]
+        centroid = np.divide(pose_sum,self.num_cfs)
         #print(centroid)
         return centroid
 
@@ -76,7 +76,7 @@ class cf_pose(Node):
         cent_vec = np.array(cent_vec)
         cent_hat = np.array(cent_hat)   
         #cent_hat = cent_vec / cent_norm[:,None]
-        print('centroid vectors are' + str(cent_vec))
+        #print('centroid vectors are' + str(cent_vec))
         print('centroid norms are' + str(cent_norm))
         print('centroid hats are' + str(cent_hat))
 
@@ -86,10 +86,12 @@ class cf_pose(Node):
     def aggregate(self):
         cent_vec, cent_norm, cent_hat = self.cent_dist_calc()
         for i,cf in enumerate(self.allcfs.crazyflies):
-            goal = self.pose[i] - cent_hat[i]*0.1
-            goal = np.array(goal)
+            goal = self.pose[i] + cent_hat[i]*0.3
+            goal = np.array([goal[0], goal[1], 1.0])
             if not math.isnan(goal[0]):
+                print('going to goal ' + str(goal))
                 cf.goTo(goal, 0.0, 2.0)
+
         
         self.timeHelper.sleep(2.0)
 
@@ -101,7 +103,7 @@ def main():
     timeHelper = swarm.timeHelper
     allcfs = swarm.allcfs
     allcfs.takeoff(targetHeight=Z, duration=2.0)
-    timeHelper.sleep(2.0)
+    timeHelper.sleep(4.0)
     node = cf_pose(allcfs, timeHelper, Z)
     rclpy.spin(node)
     rclpy.shutdown()

@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing joystick.egg-info/PKG-INFO
+writing dependency_links to joystick.egg-info/dependency_links.txt
+writing entry points to joystick.egg-info/entry_points.txt
+writing requirements to joystick.egg-info/requires.txt
+writing top-level names to joystick.egg-info/top_level.txt
+reading manifest file 'joystick.egg-info/SOURCES.txt'
+writing manifest file 'joystick.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/joystick/lib/python3.10/site-packages/joystick.egg-link (link to .)
+Installing joystick_node script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/joystick/lib/joystick
+
+Installed /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/build/joystick
+running install_data

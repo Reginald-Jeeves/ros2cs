@@ -1,0 +1,22 @@
+[0.619s] Invoking command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/build/hsi_cf': AMENT_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/crazyflie_py:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/build/hsi_cf/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/hsi_cf/lib/python3.10/site-packages:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/build/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/crazyflie_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/build/hsi_cf/build --no-deps install_data
+[0.811s] running develop
+[0.937s] running egg_info
+[0.937s] writing hsi_cf.egg-info/PKG-INFO
+[0.937s] writing dependency_links to hsi_cf.egg-info/dependency_links.txt
+[0.937s] writing entry points to hsi_cf.egg-info/entry_points.txt
+[0.937s] writing requirements to hsi_cf.egg-info/requires.txt
+[0.937s] writing top-level names to hsi_cf.egg-info/top_level.txt
+[0.938s] reading manifest file 'hsi_cf.egg-info/SOURCES.txt'
+[0.938s] writing manifest file 'hsi_cf.egg-info/SOURCES.txt'
+[0.939s] running build_ext
+[0.940s] Creating /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/hsi_cf/lib/python3.10/site-packages/hsi-cf.egg-link (link to .)
+[0.940s] Installing cf_fly_test script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/hsi_cf/lib/hsi_cf
+[0.940s] Installing cf_node script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/hsi_cf/lib/hsi_cf
+[0.940s] Installing cf_par_node script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/hsi_cf/lib/hsi_cf
+[0.940s] Installing cf_takeoff script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/hsi_cf/lib/hsi_cf
+[0.940s] Installing cf_trial script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/hsi_cf/lib/hsi_cf
+[0.940s] Installing emergency_landing script to /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/hsi_cf/lib/hsi_cf
+[0.940s] 
+[0.940s] Installed /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/build/hsi_cf
+[0.940s] running install_data
+[0.969s] Invoked command in '/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/build/hsi_cf' returned '0': AMENT_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/crazyflie_py:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/crazyflie_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/build/hsi_cf/prefix_override:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/hsi_cf/lib/python3.10/site-packages:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/build/crazyflie_py:/home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/install/crazyflie_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/adm.sof44944@gaia.fkie.fraunhofer.de/ros2cs/build/hsi_cf/build --no-deps install_data
